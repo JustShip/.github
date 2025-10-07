@@ -2,78 +2,55 @@
 
 **Ship your SaaS idea fast**
 
-JustShip is a production-ready template designed to help you deploy your SaaS or idea as quickly as possible. Stop wasting time on boilerplate setup and focus on building your product.
+JustShip is a collection of production-ready templates and tools designed to help you launch your SaaS or web application as quickly as possible. Stop wasting time on boilerplate setup and focus on building your product.
+
+## What is JustShip?
+
+JustShip provides battle-tested starter templates that include everything you need to go from idea to production. Each template is carefully crafted with modern best practices, authentication, deployment automation, and production-ready configurations built in.
 
 ## What's Included
 
-- **Frontend**: Modern Next.js application with best practices
-- **Backend**: Python/Django REST API with authentication and database setup
-- **Infrastructure**: Ansible playbook for automated VPS deployment
+Our repositories contain full-stack templates and tools:
 
-## Quick Start
+### 🎨 Frontend
+- Modern Next.js applications with TypeScript
+- Pre-built UI components and layouts
+- Responsive design out of the box
+- Authentication flows ready to use
 
-### Prerequisites
+### ⚙️ Backend
+- Python/Django REST APIs
+- Built-in authentication and user management
+- Database models and migrations
+- API documentation
 
-- Node.js 18+ (for frontend)
-- Python 3.10+ (for backend)
-- Ansible (for deployment)
+### 🚀 Infrastructure
+- Ansible playbooks for automated VPS deployment
+- Production-ready configurations
+- SSL/TLS setup
+- Database and reverse proxy configuration
 
-### Local Development
+### 📦 Features
+- 🔐 Authentication & authorization
+- 💳 Payment integration ready
+- 📧 Email service setup
+- 🗄️ Database migrations
+- 🔧 Environment configuration
+- 📊 Logging and monitoring
+- 🧪 Testing infrastructure
 
-1. Clone the repository
-```bash
-git clone https://github.com/yourusername/justship.git
-cd justship
-```
+## Why JustShip?
 
-2. Start the frontend
-```bash
-cd frontend
-npm install
-npm run dev
-```
+- **Save weeks of setup time** - Don't reinvent the wheel
+- **Production-ready from day one** - No prototypes, real infrastructure
+- **Best practices built in** - Security, scalability, and maintainability
+- **Full-stack solution** - Frontend, backend, and deployment in one place
 
-3. Start the backend
-```bash
-cd backend
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
-```
+## Get Started
 
-## Deployment
+Browse our repositories to find the template that fits your needs. Each repository includes detailed documentation to help you customize and deploy your application.
 
-The included Ansible playbook automates VPS setup and deployment:
+---
 
-```bash
-cd playbook
-ansible-playbook -i inventory deploy.yml
-```
-
-## Project Structure
-
-```
-justship/
-├── frontend/       # Next.js application
-├── backend/        # Django REST API
-└── playbook/       # Ansible deployment scripts
-```
-
-## Features
-
-- 🚀 Fast setup and deployment
-- 🔐 Built-in authentication
-- 📦 Database migrations ready
-- 🎨 Modern UI components
-- ☁️ VPS deployment automation
-- 🔧 Production-ready configuration
-
-## License
-
-Private
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
+**License**: Private
+**Maintained by**: JustShip Team
